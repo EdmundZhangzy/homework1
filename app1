@@ -1,0 +1,5 @@
+git checkout -b feature/add_file_a       # 创建并切换新分支
+echo "This is A's file." > a.txt         # 创建 a.txt
+git add a.txt
+git commit -m "feat: add a.txt by A"
+git push origin feature/add_file_a       # 推送到远程
